@@ -7,8 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="351dp"
-        android:layout_height="581dp"
+        android:layout_width="217dp"
+        android:layout_height="598dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,8 @@
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
-            android:layout_height="489dp" />
+            android:layout_height="489dp"
+            android:textAlignment="gravity" />
 
         <Button
             android:id="@+id/fetchDataButton"
