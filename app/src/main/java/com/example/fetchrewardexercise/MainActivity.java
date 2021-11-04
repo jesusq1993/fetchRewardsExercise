@@ -108,13 +108,6 @@ public class MainActivity extends AppCompatActivity {
                 for(int i = 0; i < jsonArray.length();i++){
                     if(!jsonArray.getJSONObject(i).getString("name").equals("")){
                         if(!jsonArray.getJSONObject(i).isNull("name")) {
-                            /*String id = Integer.toString(jsonArray.getJSONObject(i).getInt("id"));
-                            String listID = Integer.toString(jsonArray.getJSONObject(i).getInt("listId"));
-                            String name = jsonArray.getJSONObject(i).getString("name");
-
-                            String objectInfo = "ID: " + id + "\nList ID: " + listID + "\nName: " + name;
-                            arrayList.add(objectInfo);*/
-
                             int id = jsonArray.getJSONObject(i).getInt("id");
                             int listID = jsonArray.getJSONObject(i).getInt("listId");
                             String name = jsonArray.getJSONObject(i).getString("name");
